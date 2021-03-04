@@ -89,7 +89,7 @@ namespace SpecShareSkill.Specflow_Steps
             managelist.TagAdd(tag);
         }   
 
-        [Given(@"to update available days I select monday")]
+        [Given(@"I Select checkboxes for available days")]
         public void GivenToUpdateAvailableDaysISelectMonday()
         {
             managelist.DaySelect();
