@@ -17,7 +17,7 @@ Then Save the Added datas
  Given I have navigated to Manage listing Page
  And I click on edit Icon navigating to ShareSkill Page
  And I add one more tag 'Automation' and Change Skilltrade
- And to update available days I select monday
+ And I Select checkboxes for available days
  And I update StartTime and EndTime
  Then Save the updated data.
 
