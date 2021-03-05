@@ -90,7 +90,7 @@ namespace SpecShareSkill.Specflow_Steps
         }   
 
         [Given(@"I Select checkboxes for available days")]
-        public void GivenToUpdateAvailableDaysISelectMonday()
+        public void GivenISelectcheckboxesforavailabledays()
         {
             managelist.DaySelect();
         }
